@@ -12,9 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        if UserDefaults.standard.integer(forKey: "uses") == 0 {
+        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+        if !launchedBefore {
            UserDefaults.standard.set(3, forKey: "uses")
         }
+        UserDefaults.standard.set(true, forKey: "launchedBefore")
         return true
     }
 

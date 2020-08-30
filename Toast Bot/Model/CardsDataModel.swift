@@ -17,7 +17,7 @@ struct CardsDataModel {
         self.bgColor = bgColor
         self.text = text
         self.image = image
-    
+     
     }
 }
 
