@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236F3CBD24FB41E30014121D /* ToastCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3CB724FB41E20014121D /* ToastCardStack.swift */; };
+		236F3CBE24FB41E30014121D /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3CB924FB41E30014121D /* UpgradeViewController.swift */; };
+		236F3CBF24FB41E30014121D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3CBB24FB41E30014121D /* CameraController.swift */; };
+		236F3CC124FB41E30014121D /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3CB824FB41E20014121D /* ToastViewController.swift */; };
+		236F3CC224FB41E30014121D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3CBC24FB41E30014121D /* HomeViewController.swift */; };
+		236F3CC724FB42230014121D /* ClarifaiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F3CC624FB42230014121D /* ClarifaiService.swift */; };
+		236F3CD124FB47D30014121D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236F3CD024FB47D30014121D /* Main.storyboard */; };
+		236F3CD324FB48940014121D /* scrape.json in Resources */ = {isa = PBXBuildFile; fileRef = 236F3CD224FB48940014121D /* scrape.json */; };
+		23B3EF5A24FB49DA00A2249A /* ReenieBeanie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23B3EF5924FB496500A2249A /* ReenieBeanie-Regular.ttf */; };
+		23B3EF5C24FB4C4800A2249A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B3EF5B24FB4C4800A2249A /* Colors.swift */; };
+		23B3EF5F24FB544C00A2249A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3EF5E24FB544C00A2249A /* StoreKit.framework */; };
+		23E071B724FBF61E005707B0 /* ToastCardStack.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23E071B624FBF61E005707B0 /* ToastCardStack.xib */; };
+		23E071B924FC0FF6005707B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E071B824FC0FF6005707B0 /* LaunchScreen.storyboard */; };
 		23F8BF1F24FB0F7E00E78B2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF1E24FB0F7E00E78B2C /* AppDelegate.swift */; };
 		23F8BF2124FB0F7E00E78B2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF2024FB0F7E00E78B2C /* SceneDelegate.swift */; };
-		23F8BF2324FB0F7E00E78B2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF2224FB0F7E00E78B2C /* ViewController.swift */; };
-		23F8BF2624FB0F7E00E78B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F8BF2424FB0F7E00E78B2C /* Main.storyboard */; };
 		23F8BF2824FB0F8000E78B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F8BF2724FB0F8000E78B2C /* Assets.xcassets */; };
-		23F8BF2B24FB0F8000E78B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F8BF2924FB0F8000E78B2C /* LaunchScreen.storyboard */; };
+		23F8BF4524FB416300E78B2C /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF4124FB416300E78B2C /* GradientButton.swift */; };
+		23F8BF4624FB416300E78B2C /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF3D24FB416300E78B2C /* Particle.swift */; };
+		23F8BF4824FB416300E78B2C /* ToastImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF4324FB416300E78B2C /* ToastImageView.swift */; };
+		23F8BF4924FB416300E78B2C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF3C24FB416300E78B2C /* GradientView.swift */; };
+		23F8BF5224FB419300E78B2C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF4D24FB419300E78B2C /* Model.swift */; };
+		23F8BF5324FB419300E78B2C /* Submission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF4C24FB419300E78B2C /* Submission.swift */; };
+		23F8BF5424FB419300E78B2C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF5024FB419300E78B2C /* Toast.swift */; };
+		23F8BF5524FB419300E78B2C /* CardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BF4F24FB419300E78B2C /* CardsDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		236F3CB724FB41E20014121D /* ToastCardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastCardStack.swift; sourceTree = "<group>"; };
+		236F3CB824FB41E20014121D /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
+		236F3CB924FB41E30014121D /* UpgradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
+		236F3CBB24FB41E30014121D /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		236F3CBC24FB41E30014121D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		236F3CC624FB42230014121D /* ClarifaiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarifaiService.swift; sourceTree = "<group>"; };
+		236F3CD024FB47D30014121D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		236F3CD224FB48940014121D /* scrape.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scrape.json; sourceTree = "<group>"; };
+		23B3EF5924FB496500A2249A /* ReenieBeanie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReenieBeanie-Regular.ttf"; sourceTree = "<group>"; };
+		23B3EF5B24FB4C4800A2249A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		23B3EF5E24FB544C00A2249A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		23E071B624FBF61E005707B0 /* ToastCardStack.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToastCardStack.xib; sourceTree = "<group>"; };
+		23E071B824FC0FF6005707B0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23F8BF1B24FB0F7E00E78B2C /* Toast Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toast Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F8BF1E24FB0F7E00E78B2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23F8BF2024FB0F7E00E78B2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23F8BF2224FB0F7E00E78B2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		23F8BF2524FB0F7E00E78B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23F8BF2724FB0F8000E78B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		23F8BF2A24FB0F8000E78B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23F8BF2C24FB0F8000E78B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F8BF3C24FB416300E78B2C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		23F8BF3D24FB416300E78B2C /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		23F8BF4124FB416300E78B2C /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		23F8BF4324FB416300E78B2C /* ToastImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastImageView.swift; sourceTree = "<group>"; };
+		23F8BF4C24FB419300E78B2C /* Submission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission.swift; sourceTree = "<group>"; };
+		23F8BF4D24FB419300E78B2C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		23F8BF4F24FB419300E78B2C /* CardsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDataModel.swift; sourceTree = "<group>"; };
+		23F8BF5024FB419300E78B2C /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B3EF5F24FB544C00A2249A /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236F3CC524FB42170014121D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				236F3CBC24FB41E30014121D /* HomeViewController.swift */,
+				236F3CB824FB41E20014121D /* ToastViewController.swift */,
+				236F3CB924FB41E30014121D /* UpgradeViewController.swift */,
+				236F3CBB24FB41E30014121D /* CameraController.swift */,
+				236F3CB724FB41E20014121D /* ToastCardStack.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		236F3CC924FB42300014121D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				236F3CC624FB42230014121D /* ClarifaiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		236F3CCB24FB42440014121D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				23B3EF5924FB496500A2249A /* ReenieBeanie-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		23B3EF5D24FB544C00A2249A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23B3EF5E24FB544C00A2249A /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		23F8BF1224FB0F7E00E78B2C = {
 			isa = PBXGroup;
 			children = (
 				23F8BF1D24FB0F7E00E78B2C /* Toast Bot */,
 				23F8BF1C24FB0F7E00E78B2C /* Products */,
+				23B3EF5D24FB544C00A2249A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +132,42 @@
 			children = (
 				23F8BF1E24FB0F7E00E78B2C /* AppDelegate.swift */,
 				23F8BF2024FB0F7E00E78B2C /* SceneDelegate.swift */,
-				23F8BF2224FB0F7E00E78B2C /* ViewController.swift */,
-				23F8BF2424FB0F7E00E78B2C /* Main.storyboard */,
+				23F8BF5624FB41A700E78B2C /* Model */,
+				23F8BF4B24FB417600E78B2C /* View */,
+				236F3CC524FB42170014121D /* Controller */,
+				236F3CC924FB42300014121D /* Service */,
+				236F3CCB24FB42440014121D /* Fonts */,
 				23F8BF2724FB0F8000E78B2C /* Assets.xcassets */,
-				23F8BF2924FB0F8000E78B2C /* LaunchScreen.storyboard */,
 				23F8BF2C24FB0F8000E78B2C /* Info.plist */,
 			);
 			path = "Toast Bot";
+			sourceTree = "<group>";
+		};
+		23F8BF4B24FB417600E78B2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				236F3CD024FB47D30014121D /* Main.storyboard */,
+				23E071B824FC0FF6005707B0 /* LaunchScreen.storyboard */,
+				23E071B624FBF61E005707B0 /* ToastCardStack.xib */,
+				23F8BF3D24FB416300E78B2C /* Particle.swift */,
+				23F8BF4324FB416300E78B2C /* ToastImageView.swift */,
+				23F8BF3C24FB416300E78B2C /* GradientView.swift */,
+				23F8BF4124FB416300E78B2C /* GradientButton.swift */,
+				23B3EF5B24FB4C4800A2249A /* Colors.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23F8BF5624FB41A700E78B2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				236F3CD224FB48940014121D /* scrape.json */,
+				23F8BF4F24FB419300E78B2C /* CardsDataModel.swift */,
+				23F8BF4D24FB419300E78B2C /* Model.swift */,
+				23F8BF5024FB419300E78B2C /* Toast.swift */,
+				23F8BF4C24FB419300E78B2C /* Submission.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +228,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F8BF2B24FB0F8000E78B2C /* LaunchScreen.storyboard in Resources */,
 				23F8BF2824FB0F8000E78B2C /* Assets.xcassets in Resources */,
-				23F8BF2624FB0F7E00E78B2C /* Main.storyboard in Resources */,
+				236F3CD324FB48940014121D /* scrape.json in Resources */,
+				23E071B724FBF61E005707B0 /* ToastCardStack.xib in Resources */,
+				23E071B924FC0FF6005707B0 /* LaunchScreen.storyboard in Resources */,
+				236F3CD124FB47D30014121D /* Main.storyboard in Resources */,
+				23B3EF5A24FB49DA00A2249A /* ReenieBeanie-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +244,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F8BF2324FB0F7E00E78B2C /* ViewController.swift in Sources */,
+				236F3CBD24FB41E30014121D /* ToastCardStack.swift in Sources */,
+				236F3CC224FB41E30014121D /* HomeViewController.swift in Sources */,
+				23F8BF4524FB416300E78B2C /* GradientButton.swift in Sources */,
+				23B3EF5C24FB4C4800A2249A /* Colors.swift in Sources */,
+				23F8BF4624FB416300E78B2C /* Particle.swift in Sources */,
+				236F3CC724FB42230014121D /* ClarifaiService.swift in Sources */,
+				23F8BF5424FB419300E78B2C /* Toast.swift in Sources */,
 				23F8BF1F24FB0F7E00E78B2C /* AppDelegate.swift in Sources */,
+				236F3CC124FB41E30014121D /* ToastViewController.swift in Sources */,
 				23F8BF2124FB0F7E00E78B2C /* SceneDelegate.swift in Sources */,
+				23F8BF5224FB419300E78B2C /* Model.swift in Sources */,
+				23F8BF5324FB419300E78B2C /* Submission.swift in Sources */,
+				236F3CBE24FB41E30014121D /* UpgradeViewController.swift in Sources */,
+				23F8BF4924FB416300E78B2C /* GradientView.swift in Sources */,
+				23F8BF5524FB419300E78B2C /* CardsDataModel.swift in Sources */,
+				23F8BF4824FB416300E78B2C /* ToastImageView.swift in Sources */,
+				236F3CBF24FB41E30014121D /* CameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		23F8BF2424FB0F7E00E78B2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23F8BF2524FB0F7E00E78B2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		23F8BF2924FB0F8000E78B2C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23F8BF2A24FB0F8000E78B2C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		23F8BF2D24FB0F8000E78B2C /* Debug */ = {
